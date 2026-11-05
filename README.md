@@ -42,14 +42,14 @@ Proyek menggunakan pola sederhana mirip MVC: folder `class/` berperan sebagai **
 Main
 ├── Program
 │   ├── class/
-│   │   ├── Manusia.php            (abstract class: nama, email, no_hp + getter/setter + koneksi DB)
-│   │   ├── Pasien.php             (extends Manusia)
+│   │   ├── Manusia.php            
+│   │   ├── Pasien.php             
 │   │   │   ├── create()
 │   │   │   ├── getAll()
 │   │   │   ├── getById($id)
 │   │   │   ├── update()
 │   │   │   └── delete()
-│   │   ├── Doctor.php             (extends Manusia)
+│   │   ├── Doctor.php             
 │   │   │   ├── create()
 │   │   │   ├── getAll()
 │   │   │   ├── getById($id)
@@ -72,12 +72,12 @@ Main
 │   │       └── delete()
 │   │
 │   ├── config/
-│   │   └── db.php                 (class Database, koneksi PDO)
+│   │   └── db.php                 
 │   │
 │   ├── database/
-│   │   └── db_rumahsakit.sql      (struktur tabel + data awal)
+│   │   └── db_rumahsakit.sql      
 │   │
-│   ├── img/                       (foto ruangan: default, melati, mawar, anggrek, dan hasil upload)
+│   ├── img/                       
 │   │
 │   ├── view/
 │   │   ├── header.php
@@ -88,7 +88,7 @@ Main
 │   │   ├── doctor.php
 │   │   └── ruangan.php
 │   │
-│   ├── index.php                  (router + pemrosesan aksi CRUD)
+│   ├── index.php                  
 │   └── style.css
 │
 ├── Dokumentasi
@@ -284,6 +284,4 @@ Menunggu ──[Mulai]──> Berlangsung ──[Selesai]──> Selesai
 
 ## Dokumentasi
 
-Screen record uji coba CRUD pada semua tabel (Pasien, Dokter, Ruangan, Jadwal Operasi):
-
-dokumentasitp7.mp4 [Dokumentasi/dokumentasitp7.mp4](Dokumentasi/dokumentasitp7.mp4)
+[Dokumentasi/dokumentasitp7.mp4](Dokumentasi/dokumentasitp7.mp4)
