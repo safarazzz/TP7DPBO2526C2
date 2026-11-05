@@ -284,4 +284,4 @@ Menunggu ──[Mulai]──> Berlangsung ──[Selesai]──> Selesai
 
 ## Dokumentasi
 
-[[Dokumentasi/dokumentasitp7.mp4](Dokumentasi/dokumentasitp7.mp4)](https://github.com/user-attachments/assets/1837b7fd-5f4b-4b69-8abf-85fe804ee29f)
+https://github.com/user-attachments/assets/1837b7fd-5f4b-4b69-8abf-85fe804ee29f
